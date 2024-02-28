@@ -1,0 +1,152 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    width: 100vw;
+}
+
+.backgroundheader{
+    background-image: url(../storage/img/placeYourImageHere0.png);
+    background-position: 0px -10px;
+    background-size: cover;
+}
+
+.filtroheader{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.contenedorizquierdoheader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorizquierdoheader ul{
+    display: flex;
+    list-style: none;
+}
+
+.contenedorizquierdoheader ul li{
+    margin: 0 15px;
+    display: flex;
+    color: var(--color-font);
+}
+
+.contenedorizquierdoheader ul > li{
+    margin-left: 30px;
+}
+
+.contenedorimagenheader{
+    margin: 15px 0;
+    width: 80px;
+    height: 80px;
+}
+
+.contenedorimagenheader img{
+    width: 100%;
+}
+
+.contenedorderechoheader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorderechoheader ul{
+    display: flex;
+    list-style: none;
+}
+
+.contenedorderechoheader ul li{
+    margin: 0 15px;
+    color: var(--color-font);
+}
+
+.contenedorderechoheader ul > li{
+    margin-right: 30px;
+}
+
+.contenedorderechoheader, .contenedorizquierdoheader{
+    width: 30%;
+}
+
+.primeraseccion{
+    background-image: url(../storage/img/placeYourImageHere0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 890px;
+}
+
+.filtroprimeraseccion{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+}
+
+.contenedorimagenprimeraseccion{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorimgprimeraseccion{
+    width: 70%;
+}
+
+.contenedorimgprimeraseccion img{
+    width: 100%;
+    height: auto;
+}
+
+.contenedorderechoprimeraseccion{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorprimeraseccion{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.tituloamarilloprimeraseccion{
+    color: var(--color-primary);
+    font-size: 40px;
+}
+
+.parrafomedioprimeraseccion{
+    color: var(--color-font);
+    font-size: 30px;
+}
+
+.contactusprimeraseccion button{
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-size: 30px;
+    background-color: var(--color-primary);
+    padding: 15px;
+}
+
+.tituloamarilloprimeraseccion, .parrafomedioprimeraseccion, .contactusprimeraseccion{
+    margin: 10px 0;
+}
