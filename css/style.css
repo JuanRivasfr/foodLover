@@ -23,6 +23,10 @@ header{
     width: 100%;
 }
 
+main{
+    width: 100%;
+}
+
 .backgroundheader{
     background-image: url(../storage/img/placeYourImageHere0.png);
     background-position: 0px -10px;
@@ -176,6 +180,7 @@ header{
     width: 100%;
     height: 100%;
     display: flex;
+    margin: 7vw 0;
 }
 
 .contenedorimagensegundaseccion{
@@ -222,46 +227,157 @@ header{
 }
 
 .terceraseccion{
-    width: 100%;
-    height: 100%;
+    position: relative;
     border: 1px solid violet;
+    margin: 7vw 0;
 }
 
-.backgroundimgterceraseccion{
-    display: flex;
+.contenedorterceraseccion{
     position: absolute;
     width: 100%;
+    height: 100%;
+    top: 0;
     border: 1px solid white;
-    z-index: -1;
 }
 
 .backgroundimgterceraseccion img{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.contenedorterceraseccion{
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    border: 1px solid salmon;
-}
-
-.imgwaffleterceraseccion, .imghuevosterceraseccion, .imghuevosfrutasterceraseccion, .contenedortextoterceraseccion{
-    width: 10%;
-    position: static;
-}
-
-.imgwaffleterceraseccion img, .imghuevosterceraseccion img, .imghuevosfrutasterceraseccion img{
-    width: 100%;
 }
 
 .imgwaffleterceraseccion{
-    width: 20%;
     position: absolute;
-    border: 1px solid green;
+    top: 0;
+    right: 0;
+    width: 25%;
+    border: 1px solid white;
 }
 
+.imgwaffleterceraseccion img{
+    width: 100%;
+}
+
+.imghuevosfrutasterceraseccion{
+    position: absolute;
+    bottom: 4%;
+    left: -4%;
+    width: 40%;
+    border: 1px solid white;
+}
+
+.imghuevosfrutasterceraseccion img{
+    width: 100%;
+}
+
+.imghuevosterceraseccion{
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+    border: 1px solid white;
+    width: 62%;
+}
+
+.imghuevosterceraseccion img{
+    width: 100%;
+}
+
+.contenedortextoterceraseccion{
+    position: absolute;
+    border: 1px solid white;
+    width: 32%;
+    left: 10%;
+    top: 20%;
+    color: var(--color-font);
+}
+
+.contenedortextoterceraseccion h1{
+    font-size: 3vw;
+}
+
+.contenedortextoterceraseccion p{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2vw;
+    margin-top: 2vw;
+}
+
+.cuartaseccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-font);
+    width: 100%;
+    margin: 7vw 0;
+}
+
+.contenedorimg̣__cuartaseccion{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+.contenedorimg̣__cuartaseccion div{
+    width: 29%;
+    margin: 1vw;
+}
+
+.contenedorimg̣__cuartaseccion div img{
+    width: 100%;
+}
+
+.titulo__cartaseccion{
+    margin: 4vw 0;
+    font-size: 2vw;
+}
+
+.enjoy__{
+    position: relative;
+    margin: 7vw 0;
+}
+
+.back__enjoy img{
+    width: 100%;
+}
+
+.cont__enjoy{
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    border: 1px solid white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text__enjoy{
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-font);
+    font-weight: bold;
+}
+
+.text__enjoy p{
+    font-size: 2vw;
+    display: flex;
+    text-align: center;
+}
+
+.text__enjoy h1{
+    margin-bottom: 1.5vw;
+    font-size: 2.5vw;
+    display: flex;
+    text-align: center;
+}
+
+.border__enjoy{
+    border: 7px solid var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 60%;
+}
