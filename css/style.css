@@ -15,6 +15,7 @@
 
 body{
     width: 100vw;
+    background-color: var(--color-secundary);
 }
 
 .backgroundheader{
@@ -26,7 +27,7 @@ body{
 .filtroheader{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .contenedorizquierdoheader{
@@ -90,13 +91,13 @@ body{
     background-size: cover;
     background-position: top;
     width: 100%;
-    height: 890px;
+    height: 700px;
 }
 
 .filtroprimeraseccion{
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     display: flex;
 }
 
@@ -149,4 +150,51 @@ body{
 
 .tituloamarilloprimeraseccion, .parrafomedioprimeraseccion, .contactusprimeraseccion{
     margin: 10px 0;
+}
+
+.segundaseccion{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.contenedorimagensegundaseccion{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.contenedorizquierdosegundaseccion{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: var(--color-font);
+}
+
+.contenedorimgsegunda{
+    width: 600px;
+    height: 550px;
+    margin: 70px;
+}
+
+.contenedorimgsegunda img{
+    width: 100%;
+    height: 100%;
+}
+
+.titulosegundaseccion{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.parrafosegundaseccion{
+    font-size: 30px;
+}
+
+.contenedorseccionizquierdados{
+    width: 680px;
+    margin: 70px;
 }
